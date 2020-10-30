@@ -3,7 +3,7 @@ namespace Deployer;
 
 require 'recipe/drupal8.php';
 
-set('default_timeout', 600);
+set('default_timeout', 60);
 
 // Project name
 set('application', 'covid.vantuch.cz');
